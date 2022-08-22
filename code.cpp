@@ -16,7 +16,7 @@ void main() {
 	Mat img;
 
 	CascadeClassifier plateCascade;
-	plateCascade.load("Resources / haarcascade_russian_plate_number.xml");
+	plateCascade.load("Resources / plate_number.xml");
 
 	if (plateCascade.empty()) { cout << "XML file not loaded" << endl; }
 
