@@ -30,7 +30,7 @@ void main() {
 		{
 			Mat imgcrop = img(plates[i]);
 			//imshow(to_string(i), imgcrop);
-			imwrite("resources/dheeraj plae/" + to_string(i) + ".png", imgcrop);
+			imwrite("resources/plates/" + to_string(i) + ".png", imgcrop);
 			rectangle(img, plates[i].tl(), plates[i].br(), Scalar(255, 0, 255), 3);
 		}
 
